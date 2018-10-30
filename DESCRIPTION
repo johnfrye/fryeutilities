@@ -1,0 +1,36 @@
+Package: fryeutilities
+Title: 
+Version: 0.1.0
+Authors@R: person("John", "Frye", email = "fryej1@aetna.com", role = c("aut", "cre"))
+Description: Analytics Project and Data Management Utilities
+Depends:
+    R (>= 3.2.3),
+    devtools,
+    dplyr,
+    feather,
+    lubridate,
+    knitr,
+    magrittr,
+    rio,
+    stringi,
+    stringr,
+    tibble
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Byte-Compile: yes
+Packaged: 2016-06-09 23:59:36 UTC; john
+Author: John Frye [aut, cre]
+Maintainer: John Frye <fryej1@aetna.com>
+Imports:
+    devtools,
+    dplyr,
+    feather,
+    knitr,
+    magrittr,
+    rio,
+    stringi,
+    stringr,
+    tibble,
+    skimr
